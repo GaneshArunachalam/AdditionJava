@@ -1,0 +1,12 @@
+public class Myexample{
+
+     public static void main(String []args){
+         int x = 5 ,y =6,z=y,i;
+         for(i=1 ;i<=x; i++)
+         {
+             z=z+1;
+             System.out.println("Value of z"+z);
+         }
+        System.out.println("Sum of two values"+z);
+     }
+}
